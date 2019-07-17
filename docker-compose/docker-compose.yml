@@ -20,7 +20,7 @@ services:
       - POSTGRES_PASSWORD=
 
   microservice1-app:
-    image: cameronavelisbooker/microservice1
+    image: cameronavelisbooker/sandbox-microservice1
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - 'SPRING_PROFILES_ACTIVE=prod,swagger'
