@@ -1,0 +1,13 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "jhipster-sandbox-gateway",
+      "microservice1"
+    ],
+    "directoryPath": "../",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "YWVhOGNmYjBmMWRmZGYxMjNlNDQyMjk1OWE1ZjNhNGM4YTc0YWI5MzhmNmNhMWEwNDcxYTExOTM1YWQ0NTJkZTk1YmFjODI0YTFlNTgzZGIyMzk5YzgyNzhhZTZiOWZjNzBhNQ=="
+  }
+}
