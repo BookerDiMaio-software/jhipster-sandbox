@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "jhipster-sandbox-gateway",
+      "microservice1"
+    ],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZmU2NzQ3ZTg1YzZkZjRmMDBiNzc2MjY1NjAyYTQ5MDFlZmRhYmVkMTc5MmMwNDMzMmUzYzg4N2MyMmJjNjMzYjQ1MTdiMjU2MDY5MzA5MjEyYzY3NmE4ZWUzYzI1YjcyYjNlZg==",
+    "dockerRepositoryName": "cameronavelisbooker",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "NodePort",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}
