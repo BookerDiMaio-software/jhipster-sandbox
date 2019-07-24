@@ -1,11 +1,15 @@
 [submodule "jhipster-sandbox-gateway"]
 	path = jhipster-sandbox-gateway
-	url = https://github.com/cmavelis/jhipster-sandbox-gateway.git
+	url = https://github.com/BookerDiMaio-software/jhipster-sandbox-gateway.git
 	branch = master
 [submodule "microservice1"]
 	path = microservice1
-	url = https://github.com/cmavelis/jhipster-sandbox-ms1.git
+	url = https://github.com/BookerDiMaio-software/jhipster-sandbox-ms1.git
 	branch = master
+[submodule "microservice2"]
+    path = microservice2
+    url = https://github.com/BookerDiMaio-software/jhipster-sandbox-ms2.git
+    branch = master
 [submodule "jhipster-registry"]
 	path = jhipster-registry
 	url = https://github.com/jhipster/jhipster-registry.git
