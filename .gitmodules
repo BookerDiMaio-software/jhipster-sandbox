@@ -7,8 +7,8 @@
 	url = https://github.com/BookerDiMaio-software/jhipster-sandbox-ms1.git
 	branch = master
 [submodule "microservice2"]
-    path = microservice2
-    url = https://github.com/BookerDiMaio-software/jhipster-sandbox-ms2.git
+	path = microservice2
+	url = https://github.com/BookerDiMaio-software/jhipster-sandbox-ms2.git
     branch = master
 [submodule "jhipster-registry"]
 	path = jhipster-registry
