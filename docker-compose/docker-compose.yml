@@ -1,7 +1,7 @@
 version: '2'
 services:
   gateway-app:
-    image: cameronavelisbooker/sandbox-gateway
+    image: cameronavelisbooker/sandbox-gateway:greeter
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - 'SPRING_PROFILES_ACTIVE=prod,swagger'
@@ -20,7 +20,7 @@ services:
       - POSTGRES_PASSWORD=
 
   microservice1-app:
-    image: cameronavelisbooker/sandbox-microservice1
+    image: cameronavelisbooker/sandbox-microservice1:greeter
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - 'SPRING_PROFILES_ACTIVE=prod,swagger'
